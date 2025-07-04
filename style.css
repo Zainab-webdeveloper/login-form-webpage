@@ -1,0 +1,49 @@
+body { 
+    display: grid; 
+    place-items: center;
+    min-height: 560px; 
+    margin: auto; 
+}
+
+.login-form {
+    background-color: aqua; 
+    padding: 30px; 
+    text-align: center; 
+    width: 350px; 
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    }
+
+.picture {
+    margin-bottom: 20px; 
+    width: 150px; 
+    height: 150px;
+    }
+
+
+form input[type="email"], [type="password"] {
+    width: 280px; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+ button {
+    background-color: black; 
+    color: white; 
+    padding: 12px ;
+    border: none; 
+    border-radius: 5px;
+    font-size: 18px; 
+    width: 305px; 
+    
+}
+
+ button:hover {
+    background-color: navy;
+}
